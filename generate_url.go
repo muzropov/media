@@ -14,11 +14,11 @@ const AVATAR_300x300_PATH  = "avatars/300x300"
 const AVATAR_500x500_PATH  = "avatars/500x500"
 
 func GetPromoVideoUrl(filename string) string {
-	return fmt.Sprintf("%s/%s/%s/%s", URL, BUCKET, PROMO_VIDEO_PATH, filename)
+	return fmt.Sprintf("%s/%s/%s/%s.mp4", URL, BUCKET, PROMO_VIDEO_PATH, filename)
 }
 
 func GetResizedVideoUrl(filename string) string {
-	return fmt.Sprintf("%s/%s/%s/%s", URL, BUCKET, RESIZED_VIDEO_PATH, filename)
+	return fmt.Sprintf("%s/%s/%s/%s.mp4", URL, BUCKET, RESIZED_VIDEO_PATH, filename)
 }
 
 func GetThumbnail480x858Url(filename string) string {
