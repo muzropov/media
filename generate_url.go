@@ -3,7 +3,7 @@ package media
 import "fmt"
 
 const URL  = "https://s3.amazonaws.com"
-const BUCKET  = "fiesta.storage-resized"
+const BUCKET  = "fiesta-storage-resized"
 const PROMO_VIDEO_PATH  = "videos/original"
 const RESIZED_VIDEO_PATH  = "videos/720p"
 const THUMBNAIL_480x858_PATH  = "thumbnails/480x858"
